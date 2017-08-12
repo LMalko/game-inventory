@@ -3,12 +3,7 @@
 
 # Displays the inventory.
 def display_inventory(inventory):
-    print("Inventory:")
-    sum_of_inv_values = 0
-    for key, value in inventory.items():
-        print(value, key)
-        sum_of_inv_values += value
-    print("Total number of items: ", sum_of_inv_values)
+    pass
 
 
 # Adds to the inventory dictionary a list of items from added_items.
